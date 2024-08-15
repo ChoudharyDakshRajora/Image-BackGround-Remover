@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b7b5e4;
+}
+
+.container {
+    text-align: center;
+}
+
+#upload {
+    margin: 20px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#output {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+#download {
+    display: none;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #cdd3da;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    color: rgb(206, 255, 11);
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
